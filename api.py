@@ -3,6 +3,7 @@ import flask
 
 app = Flask(__name__)
 
+#Cualquier ruta
 @app.route("/")
 def hello_world():
     response = flask.jsonify({'some': 'data'})
